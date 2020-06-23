@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <link
       rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/keen-slider@4.1.5/keen-slider.min.css"
+      href="https://cdn.jsdelivr.net/npm/keen-slider@4.1.3/keen-slider.min.css"
     />
 
     <style>
@@ -105,18 +105,11 @@
       <div class="keen-slider__slide number-slide5">5</div>
       <div class="keen-slider__slide number-slide6">6</div>
     </div>
-    <div style="margin-top: 30px; text-align: center;">
-      <a
-        target="_blank"
-        id="github-link"
-        href="https://github.com/rcbyr/keen-slider"
-        >Visit the project on GitHub</a
-      >
-    </div>
+    <div style="margin-top: 30px; text-align: center;"></div>
 
     <script src="https://cdn.jsdelivr.net/npm/keen-slider@4.1.3/keen-slider.min.js"></script>
     <script>
-      var slider = new KeenSlider("#my-keen-slider", { loop: true });
+      var slider = new KeenSlider("#my-keen-slider", { slidesPerView: 2 });
     </script>
   </body>
 </html>
